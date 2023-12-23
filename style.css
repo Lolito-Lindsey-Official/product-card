@@ -8,7 +8,8 @@
 }
 
 body {
-    background-color: hsl(30, 38%, 92%) ;
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
 }
 
 .perfume-product {
@@ -24,12 +25,13 @@ body {
 
     min-width: 375px;
     height: 500px;
+
+    border-radius: 1.0rem;
 }
 
 #perfume-text {
     background-color: hsl(0, 0%, 100%);
     padding: 1.5rem;
-
 }
 
 .perfume-picture {
