@@ -7,20 +7,79 @@
      color: hsl(228, 45%, 44%);
 }
 
-#perfume-product {
+body {
+    background-color: hsl(30, 38%, 92%) ;
+}
+
+.perfume-product {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    width: 400px;
-
     font-size: 14px;
+
+    min-width: 375px;
+    height: 500px;
 }
 
-img {
+#perfume-text {
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.5rem;
+
+}
+
+.perfume-picture {
+   background-image: url("images/image-product-desktop.jpg");
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    .perfume-product {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .perfume-picture {
+        background-image: url("images/image-product-mobile.jpg");
+        width: 100%;
+    }
+}
+
+#perfume-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#perfume-starter, #perfume-pitch {
+    line-height: 1.5;
+    font-weight: 500;
+    color: #868686;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 1.0rem;
+}
+
+#perfume-new-price {
+   color: hsl(158, 36%, 37%);
+}
+
+#perfume-old-price {
+    text-decoration: line-through;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    padding: 20px;
     width: 100%;
 }
