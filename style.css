@@ -1,15 +1,19 @@
 .attribution { 
-    font-size: 11px; 
-    text-align: center; 
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: hsl(0, 0%, 0%);
+    font-size: 10px;
+    margin-top: -10px;
 }
 
 .attribution a {
-     color: hsl(228, 45%, 44%);
+    color: hsl(218, 44%, 22%); 
 }
 
 body {
     background-color: hsl(30, 38%, 92%);
-    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .perfume-product {
@@ -21,12 +25,11 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 14px;
 
     min-width: 375px;
     height: 500px;
 
-    border-radius: 1.0rem;
+    border-radius: 1.5rem;
 }
 
 #perfume-text {
@@ -60,9 +63,9 @@ body {
 }
 
 #perfume-starter, #perfume-pitch {
-    line-height: 1.5;
     font-weight: 500;
     color: #868686;
+    gap: 1.0rem;
 }
 
 .price {
@@ -73,6 +76,8 @@ body {
 
 #perfume-new-price {
    color: hsl(158, 36%, 37%);
+   font-size: 32px;           
+   font-weight: 700;
 }
 
 #perfume-old-price {
@@ -82,6 +87,23 @@ body {
 button {
     background-color: hsl(158, 36%, 37%);
     border: none;
+    border-radius: 1.0rem;
     padding: 20px;
     width: 100%;
+    gap: 1.0rem;
+
+    color: #fff;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:focus {
+    outline: 1px solid #8686862f;
+}
+
+button:hover {
+    transition: 0.3s;
+    background-color: hsl(159, 35%, 21%);
 }
