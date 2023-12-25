@@ -14,16 +14,16 @@
 
 ## Overview
 
-This is for a QR code component for the FrontEndMentor site.
+This is a product preview card for Gabrielle Chanel perfume.
 
 ### Screenshot
 
-Find the final screenshot using this file path: images/qr-code-component-screenshot
+Find the final screenshot using this file path: images/product-preview-card-screenshot
 
 ### Links
 
-- Solution URL: https://github.com/Lolito-Lindsey-Official/qr-code-component
-- Live Site URL: https://lolito-lindsey-official.github.io/qr-code-component/
+- Solution URL: https://github.com/Lolito-Lindsey-Official/product-card
+- Live Site URL: https://lolito-lindsey-official.github.io/product-card/
 
 ## My process
 
