@@ -60,12 +60,15 @@ body {
 #perfume-title {
     font-size: 32px;
     font-weight: 700;
+    font-family: 'Monsterrat';
 }
 
 #perfume-starter, #perfume-pitch {
     font-weight: 500;
     color: #868686;
     gap: 1.0rem;
+    font-family: 'Fraunces', sans-serif;
+    margin-bottom: -10px;
 }
 
 .price {
@@ -78,6 +81,7 @@ body {
    color: hsl(158, 36%, 37%);
    font-size: 32px;           
    font-weight: 700;
+   font-family: 'Monsterrat';
 }
 
 #perfume-old-price {
